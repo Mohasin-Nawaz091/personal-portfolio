@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#08080a">
+<meta name="description" content="Mohasin Nawaz — Software Engineer, Full-Stack Developer and technology enthusiast based in Peshawar, Pakistan.">
+<title>Mohasin Nawaz — Software Engineer & Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Onest:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<script type="importmap">{"imports":{"lenis":"https://cdn.jsdelivr.net/npm/lenis@1.3.19/dist/lenis.mjs"}}</script>
+<style>
+:root{--background:#08080a;--foreground:#f3f1ea;--surface:#111114;--surface-2:#17171b;--muted:#807f78;--line:rgba(243,241,234,.1);--line-strong:rgba(243,241,234,.22);--accent:#ff3b1d;--accent-2:#ff6a3d;--font-display:"Anton",sans-serif;--font-sans:"Onest",sans-serif;--gutter:2.5rem;--section:9rem}
+*{margin:0;padding:0;box-sizing:border-box}html{font-size:16px;background:var(--background);scroll-behavior:auto;scrollbar-color:var(--accent) var(--background);scrollbar-width:thin} @media(max-width:1920px){html{font-size:.833333vw}}@media(max-width:1440px){html{font-size:1.111111vw}}@media(max-width:1024px){html{font-size:1.5625vw}}@media(max-width:640px){html{font-size:4.444444vw}:root{--gutter:16px;--section:6rem}}
+img,video{display:block;max-width:100%}ul{list-style:none}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit;border:0;background:none;cursor:pointer}body{background:var(--background);color:var(--foreground);font-family:var(--font-sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}::-webkit-scrollbar{width:8px;height:8px}::-webkit-scrollbar-track{background:var(--background)}::-webkit-scrollbar-thumb{background:var(--accent);border-radius:9999px}::-webkit-scrollbar-thumb:hover{background:var(--accent-2)}::selection{background:var(--accent);color:var(--background)}main{position:relative;width:100%;overflow:hidden}.display{font-family:var(--font-display);text-transform:uppercase;letter-spacing:-.01em}.eyebrow{display:flex;align-items:center;gap:.75rem;font-size:.8125rem;font-weight:500;text-transform:uppercase;letter-spacing:.22em;color:var(--muted);line-height:1.2}.eyebrow:before{content:"";width:.5rem;height:.5rem;flex:none;border-radius:50%;background:var(--accent)}.section{padding:var(--section) var(--gutter)}.section-heading{font:400 clamp(3.25rem,5vw,5rem)/.95 var(--font-display);text-transform:uppercase;letter-spacing:-.01em;margin-top:1.5rem;max-width:16ch}.muted{color:var(--muted)}.reveal{opacity:0;transform:translateY(42px);transition:opacity 560ms cubic-bezier(.16,1,.3,1),transform 560ms cubic-bezier(.16,1,.3,1)}.reveal.in-view{opacity:1;transform:translateY(0)}.line-wrap{display:block;overflow:hidden}.line-inner{display:block;transform:translateY(110%);transition:transform .9s cubic-bezier(.16,1,.3,1)}.in-view .line-inner{transform:translateY(0)}.preloader{position:fixed;inset:0;z-index:100;background:var(--background);display:flex;align-items:flex-end;justify-content:space-between;padding:var(--gutter);transition:transform 650ms cubic-bezier(.22,1,.36,1)}.preloader:before{content:"";position:absolute;inset:0;z-index:-1;background:var(--background)}.pre-brand{font:400 1.75rem/1 var(--font-display);text-transform:uppercase}.counter{font:400 7.5rem/1 var(--font-display);font-variant-numeric:tabular-nums}.counter span{color:var(--accent)}.preloader.labels-out .pre-brand,.preloader.labels-out .counter{opacity:0;transition:opacity 300ms}.preloader.done{transform:translateY(-100%);pointer-events:none}
+.site-header{position:fixed;inset:.65rem 0 auto;z-index:60;pointer-events:none;display:flex;justify-content:center;padding-inline:var(--gutter)}.nav{pointer-events:auto;display:flex;align-items:center;justify-content:space-between;width:100%;max-width:58rem;min-height:3.35rem;padding:.55rem 1.4rem;border-radius:9999px;background:rgba(12,12,16,.45);backdrop-filter:blur(24px) saturate(200%);-webkit-backdrop-filter:blur(24px) saturate(200%);border:1px solid rgba(255,255,255,.16);box-shadow:0 16px 40px -10px rgba(0,0,0,.6),inset 0 1px 1.5px 0 rgba(255,255,255,.2),inset 0 -1px 1px 0 rgba(0,0,0,.3);transition:background .3s,box-shadow .3s,border-color .3s}.nav:hover{border-color:rgba(255,255,255,.28);background:rgba(16,16,22,.58);box-shadow:0 20px 48px -8px rgba(0,0,0,.7),inset 0 1px 2px 0 rgba(255,255,255,.3)}.brand{display:flex;align-items:center}.brand-name{font-size:.85rem;font-weight:600;text-transform:uppercase;letter-spacing:.16em;color:var(--foreground);transition:color .25s;line-height:1}.brand:hover .brand-name{color:var(--accent)}.desktop-links{display:flex;align-items:center;gap:.35rem}.desktop-links a{position:relative;font-size:.8rem;font-weight:500;text-transform:uppercase;letter-spacing:.14em;color:var(--foreground);padding:.5rem .95rem;border-radius:9999px;transition:color .25s,background .25s}.desktop-links a:hover{color:var(--accent);background:rgba(255,255,255,.08)}.burger{display:none;width:2.25rem;height:2.25rem;flex-direction:column;align-items:center;justify-content:center;gap:.35rem;position:relative;z-index:71;border-radius:50%;background:rgba(255,255,255,.06);transition:background .25s}.burger:hover{background:rgba(255,255,255,.12)}.burger span{width:1.25rem;height:2px;background:var(--foreground);transition:transform .35s,opacity .25s}.burger.active span:first-child{transform:translateY(8px) rotate(45deg)}.burger.active span:nth-child(2){opacity:0}.burger.active span:last-child{transform:translateY(-8px) rotate(-45deg)}.mobile-menu{position:fixed;inset:0;z-index:65;background:var(--background);display:flex;flex-direction:column;justify-content:center;padding-inline:var(--gutter);opacity:0;visibility:hidden;transition:opacity 450ms ease,visibility 450ms}.mobile-menu.open{opacity:1;visibility:visible}.mobile-menu a{font:400 3.25rem/1 var(--font-display);text-transform:uppercase;display:block;padding:.4rem 0;opacity:0;transform:translateY(48px);transition:transform 420ms cubic-bezier(.16,1,.3,1),opacity 420ms}.mobile-menu.open a{opacity:1;transform:translateY(0)}.mobile-menu li:nth-child(1) a{transition-delay:120ms}.mobile-menu li:nth-child(2) a{transition-delay:180ms}.mobile-menu li:nth-child(3) a{transition-delay:240ms}.mobile-menu li:nth-child(4) a{transition-delay:300ms}.mobile-menu li:nth-child(5) a{transition-delay:360ms}
+#gl{position:absolute;inset:0;z-index:0;display:block;width:100%;height:100%;opacity:.42;mix-blend-mode:screen;pointer-events:auto}.hero{position:relative;display:flex;flex-direction:column;min-height:100svh;overflow:hidden}.hero-top{position:relative;z-index:30;display:flex;justify-content:space-between;align-items:flex-start;padding:7rem var(--gutter) 0}.hero-roles{font:400 1.75rem/1.05 var(--font-display);text-transform:uppercase;letter-spacing:-.01em;user-select:text}.hero-roles ::selection,.hero-roles *::selection,.role-line span::selection{background:#000!important;color:var(--accent)!important;-webkit-text-fill-color:var(--accent)!important}.role-line{display:block;overflow:hidden}.role-line span{display:inline-block;vertical-align:top;background:var(--accent);color:#000;padding:0 .15em;transform:translateY(110%);opacity:0;transition:transform 760ms cubic-bezier(.16,1,.3,1),opacity 760ms}.hero.loaded .role-line span{transform:translateY(0);opacity:1}.hero-roles .role-line:nth-child(2) span{transition-delay:80ms}.hero-roles .role-line:nth-child(3) span{transition-delay:160ms}.hero-roles .role-line:nth-child(4) span{transition-delay:240ms}.hero-intro{position:relative;max-width:30rem;margin-top:clamp(3.5rem,6vh,5.5rem);user-select:text;opacity:0;transform:translateY(16px);transition:opacity 520ms cubic-bezier(.16,1,.3,1),transform 520ms cubic-bezier(.16,1,.3,1)}.hero.loaded .hero-intro{opacity:1;transform:translateY(0);transition-delay:400ms}.hero-arrow{position:absolute;pointer-events:none;user-select:none;right:calc(100% - 1.25rem);top:-2.85rem;width:clamp(7.5rem,11vw,11.5rem);height:auto;filter:invert(1) brightness(2) drop-shadow(0 4px 14px rgba(255,255,255,.3));transform:rotate(-8deg);opacity:0;transition:opacity 700ms cubic-bezier(.16,1,.3,1),transform 700ms cubic-bezier(.16,1,.3,1);transition-delay:500ms;z-index:5}.hero.loaded .hero-arrow{opacity:.95;transform:rotate(-8deg)}.intro-box{display:flex;align-items:center;gap:.9rem;background:#000;color:var(--accent);padding:.85rem 1.25rem;border-radius:12px;border:1px solid rgba(255,59,29,.35);box-shadow:0 18px 42px -10px rgba(0,0,0,.85),0 0 24px rgba(255,59,29,.12);transition:border-color .3s,box-shadow .3s}.intro-box:hover{border-color:var(--accent);box-shadow:0 22px 50px -10px rgba(0,0,0,.95),0 0 30px rgba(255,59,29,.2)}.intro-bracket{font:400 clamp(3.25rem,5.5vw,4.5rem)/.85 var(--font-display);color:var(--accent);flex:none;user-select:none;display:flex;align-items:center}.bracket-left{margin-right:.1rem}.bracket-right{margin-left:.1rem}.intro-text{font-size:.95rem;line-height:1.6;font-weight:500;font-style:italic;color:var(--accent);margin:0;text-align:left}.intro-box ::selection,.intro-box *::selection,.intro-text::selection{background:var(--accent)!important;color:#000!important;-webkit-text-fill-color:#000!important}.hero-portrait{position:absolute;z-index:20;pointer-events:none;bottom:0;left:50%;transform:translateX(-50%);height:90vh;width:54vw;display:flex;align-items:flex-end;justify-content:center}.portrait-img{display:block;height:100%;width:auto;max-width:100%;object-fit:contain;object-position:bottom center;filter:drop-shadow(0 15px 35px rgba(0,0,0,.55));opacity:0;transform:translateY(28px) scale(.98);transition:opacity 850ms cubic-bezier(.16,1,.3,1),transform 850ms cubic-bezier(.16,1,.3,1);transition-delay:250ms;pointer-events:none;user-select:none}.hero.loaded .portrait-img{opacity:1;transform:translateY(0) scale(1)}.hero-name{position:absolute;z-index:10;inset-inline:0;bottom:0;transform:translateY(6%);display:flex;flex-direction:column;align-items:center;color:var(--accent);font:400 13rem/.78 var(--font-display);text-transform:uppercase;letter-spacing:-.01em;pointer-events:none}.name-line{display:block;white-space:nowrap;overflow:hidden}.name-line span{display:inline-block;transform:translateY(110%);opacity:0;transition:transform 900ms cubic-bezier(.16,1,.3,1),opacity 900ms}.hero.loaded .name-line span{transform:translateY(0);opacity:1}.scroll-cue{position:absolute;z-index:30;bottom:2rem;left:var(--gutter);display:flex;align-items:center;gap:.75rem;font-size:.8125rem;text-transform:uppercase;letter-spacing:.22em;color:var(--muted);opacity:0;transition:opacity .6s}.scroll-cue:before{content:"";width:1px;height:2.5rem;background:var(--accent)}.hero.loaded .scroll-cue{opacity:1;transition-delay:900ms}.hero-gradient{position:absolute;z-index:20;inset-inline:0;bottom:0;height:30vh;background:linear-gradient(to bottom,transparent,var(--background));pointer-events:none}
+.marquee{overflow:hidden;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:2rem 0}.marquee-track{display:flex;width:max-content;animation:marquee 22s linear infinite}.marquee-group{display:flex;align-items:center;flex:none}.marquee-word{font:400 3.25rem/1 var(--font-display);text-transform:uppercase;white-space:nowrap}.marquee-dot{width:.625rem;height:.625rem;flex:none;border-radius:50%;background:var(--accent);margin-inline:2rem}@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.story-grid{display:grid;grid-template-columns:1fr;gap:3rem}.story-copy .section-heading{max-width:13ch}.story-body{margin-top:2rem;max-width:46ch;font-size:1.375rem;line-height:1.45;color:var(--muted)}.principles{border-top:1px solid var(--line)}.principle{display:grid;grid-template-columns:auto 1fr;column-gap:1.5rem;border-bottom:1px solid var(--line);padding:2rem 0}.principle-num{font-size:1.75rem;font-weight:600;color:var(--accent);font-variant-numeric:tabular-nums}.principle h3{font-size:1.5rem;font-weight:600;letter-spacing:-.01em}.principle p{margin-top:.75rem;max-width:44ch;font-size:1.0625rem;line-height:1.6;color:var(--muted)}
+.section-head-row{display:flex;flex-direction:column;gap:2rem}.section-count{font-size:.8125rem;text-transform:uppercase;letter-spacing:.22em;color:var(--muted)}.skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);margin-top:4rem;border:1px solid var(--line)}.skill-card{background:var(--background);padding:2rem 1.5rem;min-height:14rem}.skill-card h3{font-size:1.25rem;font-weight:600}.skill-card p{margin-top:1.5rem;color:var(--muted);line-height:2;font-size:.95rem}
+.projects-grid{display:grid;grid-template-columns:1fr;column-gap:var(--gutter);row-gap:4.5rem;margin-top:4rem}.project-card:nth-child(even){margin-top:0}.project-visual{aspect-ratio:16/9.5;width:100%;position:relative;overflow:hidden;border-radius:8px;background:var(--surface);border:1px solid rgba(243,241,234,.12);box-shadow:0 14px 36px -10px rgba(0,0,0,.65);isolation:isolate;transition:border-color .4s ease,box-shadow .4s ease}.project-img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;object-position:center;display:block;transition:transform .75s cubic-bezier(.16,1,.3,1),filter .5s ease}.project-card:hover .project-img{transform:scale(1.04)}.project-card:hover .project-visual{border-color:rgba(255,59,29,.4);box-shadow:0 20px 48px -12px rgba(0,0,0,.8),0 0 24px rgba(255,59,29,.15)}.project-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 30%,rgba(255,59,29,.2) 50%,transparent 70%);opacity:0;transition:opacity .5s;pointer-events:none;z-index:2}.project-card:hover .project-visual:after{opacity:1}.project-meta{margin-top:1.5rem;border-top:1px solid var(--line);padding-top:1.25rem;display:flex;justify-content:space-between;gap:1.5rem}.project-meta h3{font-size:1.5rem;font-weight:600;letter-spacing:-.01em;transition:color .34s}.project-card:hover .project-meta h3{color:var(--accent)}.project-meta p{margin-top:.5rem;max-width:42ch;font-size:1rem;line-height:1.6;color:var(--muted)}.project-type{text-align:right;flex:none;font-size:.75rem;line-height:1.5;letter-spacing:.15em;text-transform:uppercase;color:var(--accent)}.project-stack{margin-top:.75rem;font-size:.75rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
+.timeline{margin-top:4rem;border-top:1px solid var(--line)}.timeline-item{display:grid;grid-template-columns:3rem 1fr;gap:1rem;padding:2rem 0;border-bottom:1px solid var(--line)}.timeline-index{font-size:.8125rem;letter-spacing:.15em;color:var(--accent)}.timeline-item h3{font-size:1.5rem;font-weight:600}.timeline-role{margin-top:.35rem;font-size:.8rem;text-transform:uppercase;letter-spacing:.15em;color:var(--muted)}.timeline-item p{margin-top:1rem;max-width:55ch;color:var(--muted);line-height:1.65}
+.education-grid{display:grid;grid-template-columns:1fr;gap:1rem;margin-top:4rem}.education-card{border:1px solid var(--line);padding:2rem;min-height:12rem;display:flex;flex-direction:column;justify-content:space-between}.education-card h3{font-size:1.4rem;font-weight:600}.education-card p{margin-top:1rem;color:var(--muted);font-size:.95rem}.education-card span{margin-top:2rem;color:var(--accent);font-size:.75rem;letter-spacing:.16em;text-transform:uppercase}
+.contact{padding-top:var(--section);padding-inline:var(--gutter)}.contact-heading{max-width:18ch;font:400 clamp(4rem,7vw,7.5rem)/.9 var(--font-display);text-transform:uppercase;letter-spacing:-.01em;margin-top:1.5rem}.contact-copy{margin-top:2rem;max-width:44ch;font-size:1.375rem;line-height:1.45;color:var(--muted)}.email-link{display:inline-flex;align-items:baseline;gap:1rem;margin-top:3rem;font-size:clamp(1.75rem,4vw,5rem);font-weight:600;letter-spacing:-.01em;transition:transform .34s ease,color .34s;word-break:break-all}.email-link:hover{transform:translateX(14px);color:var(--accent)}.email-link span{color:var(--accent)}.footer-bar{margin-top:var(--section);border-top:1px solid var(--line);padding:3rem 0;display:grid;grid-template-columns:1fr;gap:2.5rem}.footer-signature{font:400 3.25rem/1 var(--font-display);text-transform:uppercase}.footer-tag{margin-top:1rem;font-size:.75rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}.socials{display:flex;flex-direction:column;gap:1rem}.socials a{font-size:1rem;color:var(--muted);display:flex;align-items:center;gap:.75rem;transition:color .3s}.socials a:before{content:"";width:0;height:1px;background:var(--accent);transition:width .3s}.socials a:hover{color:var(--foreground)}.socials a:hover:before{width:1.5rem}.copyright{font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+@media(min-width:640px){.hero-top{padding-top:8rem}.hero-roles{font-size:2rem}.hero-portrait{width:52vw}.hero-name{font-size:28rem}.section-heading{font-size:5rem}.contact-heading{font-size:7.5rem}.section-head-row{flex-direction:row;align-items:flex-end;justify-content:space-between}.skills-grid{grid-template-columns:repeat(3,1fr)}.projects-grid{grid-template-columns:repeat(2,1fr)}.project-card:nth-child(even){margin-top:6rem}.education-grid{grid-template-columns:repeat(2,1fr)}.footer-bar{grid-template-columns:1fr 1fr}.principle{padding:2rem 0}}
+@media(min-width:768px){.burger{display:none}.hero-portrait{width:48vw}.skills-grid{grid-template-columns:repeat(3,1fr)}.education-grid{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:1024px){.desktop-links{display:flex}.burger{display:none}.story-grid{grid-template-columns:repeat(12,1fr);gap:var(--gutter)}.story-copy{grid-column:span 6}.principles{grid-column:span 6;margin-top:.5rem}.projects-grid{grid-template-columns:repeat(2,1fr);gap:2.5rem}.footer-bar{grid-template-columns:repeat(12,1fr);gap:2.5rem}.footer-main{grid-column:span 6}.footer-social{grid-column:span 3}.footer-right{grid-column:span 3;text-align:right}.hero-portrait{width:44vw;height:90vh}.hero-name{font-size:28rem}.skills-grid{grid-template-columns:repeat(5,1fr)}}
+@media(max-width:1023px){.desktop-links{display:none}.burger{display:flex}.hero-top{gap:2rem}.hero-intro{text-align:left;max-width:28rem;margin-top:0}.hero-arrow{display:none}.hero-portrait{width:76vw}.hero-name{font-size:clamp(9rem,25vw,20rem)}}
+@media(max-width:639px){.site-header{inset:.45rem 0 auto;padding-inline:.75rem}.nav{min-height:3rem;padding:.45rem 1rem}.preloader{flex-direction:column;align-items:flex-start;justify-content:flex-end;gap:.75rem}.counter{font-size:5rem}.brand-name{font-size:.72rem}.hero-top{flex-direction:column;gap:2rem;padding-top:8rem}.hero-roles{font-size:1.75rem}.hero-intro{max-width:100%}.intro-box{padding:.75rem .9rem;gap:.65rem}.intro-text{font-size:.875rem}.intro-bracket{font-size:2.75rem}.hero-portrait{width:96vw;height:72vh}.hero-name{font-size:clamp(7rem,25vw,11rem);bottom:1.5rem}.scroll-cue{bottom:1rem}.marquee-word{font-size:2.5rem}.marquee-dot{margin-inline:1.25rem}.skills-grid{grid-template-columns:1fr}.skill-card{min-height:0}.project-meta{gap:.75rem}.project-meta h3{font-size:1.25rem}.project-type{font-size:.65rem}.footer-right{text-align:left}.section-heading{font-size:3.25rem}}
+@media(hover:hover) and (min-width:769px){.project-visual{transition:filter .4s}.project-card:hover .project-visual{filter:saturate(1.15)}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}.preloader{display:none}.reveal{opacity:1;transform:none}.line-inner{transform:none}.hero .role-line span,.hero .name-line span,.hero-intro,.scroll-cue,.portrait-img{opacity:1;transform:none}.marquee-track{animation:none}}
+</style>
+</head>
+<body>
+<div class="preloader" id="preloader" aria-label="Loading portfolio"><div class="pre-brand">Mohasin Nawaz</div><div class="counter"><span id="count">0</span><span>%</span></div></div>
+<header class="site-header"><nav class="nav" aria-label="Main navigation"><a class="brand" href="#top"><span class="brand-name">Mohasin Nawaz</span></a><ul class="desktop-links"><li><a href="#about">About</a></li><li><a href="#expertise">Expertise</a></li><li><a href="#projects">Projects</a></li><li><a href="#experience">Experience</a></li><li><a href="#contact">Contact</a></li></ul><button class="burger" id="burger" aria-label="Open navigation menu" aria-expanded="false"><span></span><span></span><span></span></button></nav></header>
+<div class="mobile-menu" id="mobileMenu"><ul><li><a href="#about">About</a></li><li><a href="#expertise">Expertise</a></li><li><a href="#projects">Projects</a></li><li><a href="#experience">Experience</a></li><li><a href="#contact">Contact</a></li></ul></div>
+<main>
+<section class="hero" id="top">
+ <canvas id="gl" aria-hidden="true"></canvas>
+ <div class="hero-top"><h2 class="hero-roles"><span class="role-line"><span>Software Engineer</span></span><span class="role-line"><span>Full-Stack Developer</span></span><span class="role-line"><span>Flutter Developer</span></span><span class="role-line"><span>AI Enthusiast</span></span></h2><div class="hero-intro"><img class="hero-arrow" src="assets/arrow.png" alt="" aria-hidden="true" width="2148" height="732"><div class="intro-box"><span class="intro-bracket bracket-left" aria-hidden="true">{</span><p class="intro-text">I build digital products that solve real problems. From full-stack web applications and mobile experiences to AI-powered platforms, I enjoy turning ambitious ideas into working software.</p><span class="intro-bracket bracket-right" aria-hidden="true">}</span></div></div></div>
+ <div class="hero-portrait" aria-label="Portrait of Mohasin Nawaz"><img class="portrait-img" src="assets/mna.png" alt="Mohasin Nawaz" width="1086" height="1448" fetchpriority="high"></div>
+ <h1 class="hero-name"><span class="name-line" id="nameOne"></span><span class="name-line" id="nameTwo"></span></h1>
+ <div class="hero-gradient"></div>
+</section>
+<section class="marquee" aria-label="Operating principles"><div class="marquee-track"><div class="marquee-group" id="marqueeA"></div><div class="marquee-group" id="marqueeB" aria-hidden="true"></div></div></section>
+<section class="section" id="about"><div class="story-grid"><div class="story-copy"><div class="eyebrow reveal">About Me</div><h2 class="section-heading reveal">Curiosity turns ideas into reality.</h2><p class="story-body reveal">I'm Mohasin Nawaz, a Software Engineering student at the Institute of Management Sciences, Peshawar. I'm passionate about software development, technology, and building products that make everyday processes simpler and more efficient.<br><br>My journey involves exploring different areas of software engineering, from frontend development and mobile applications to backend systems and artificial intelligence. I enjoy learning by building, experimenting with technologies, and solving problems through practical projects.</p></div><ul class="principles"><li class="principle reveal"><span class="principle-num">01</span><div><h3>Learn by Building</h3><p>I believe the best way to understand technology is to build real things, experiment, and learn through experience.</p></div></li><li class="principle reveal"><span class="principle-num">02</span><div><h3>Think Beyond the Interface</h3><p>Good software is more than an attractive interface. Architecture, performance, security, and usability matter equally.</p></div></li><li class="principle reveal"><span class="principle-num">03</span><div><h3>Stay Curious</h3><p>Technology evolves constantly. I enjoy exploring new tools, frameworks, and ideas that expand what I can create.</p></div></li><li class="principle reveal"><span class="principle-num">04</span><div><h3>Build With Purpose</h3><p>I focus on creating practical solutions that address actual problems rather than building technology without a purpose.</p></div></li></ul></div></section>
+<section class="section" id="expertise"><div class="section-head-row"><div><div class="eyebrow reveal">What I Work With</div><h2 class="section-heading reveal">Technology is my toolkit.</h2></div><span class="section-count reveal">Technical Expertise</span></div><div class="skills-grid">
+<article class="skill-card reveal"><h3>Frontend & Web</h3><p>HTML5 · CSS3 · JavaScript · TypeScript · React · Next.js · Tailwind CSS · Bootstrap · Vite · WordPress · Elementor · GSAP</p></article>
+<article class="skill-card reveal"><h3>Backend & APIs</h3><p>Node.js · NestJS · REST APIs · Webhooks · JWT · Passport.js · Role-Based Access Control · API Integration</p></article>
+<article class="skill-card reveal"><h3>Databases & Cloud</h3><p>MongoDB · MongoDB Atlas · Firebase · Firestore · Firebase Authentication · Cloud Storage · Cloudflare R2 · Bunny Stream</p></article>
+<article class="skill-card reveal"><h3>Mobile Development</h3><p>Flutter · Dart · Provider · HTTP · Firebase · flutter_qiblah · Android SDK · Mobile API Integration</p></article>
+<article class="skill-card reveal"><h3>Programming & Game Tech</h3><p>C++ · Python · ImGui · DirectX 11 · OpenMP · MATLAB · JSON · XML · YAML</p></article>
+<article class="skill-card reveal"><h3>AI & Integrations</h3><p>OpenAI API · ChatGPT API · Gemini API · AI-powered features · Telegram Bot API · Telegram Webhooks</p></article>
+<article class="skill-card reveal"><h3>Developer Tools</h3><p>Git · GitHub · Postman · npm · VS Code · Visual Studio · Firebase CLI · Windows · Gradle</p></article>
+<article class="skill-card reveal"><h3>CMS & E-commerce</h3><p>WordPress · Elementor · Tutor LMS · WooCommerce · CSV Content Import · Website Administration</p></article>
+<article class="skill-card reveal"><h3>Deployment & Security</h3><p>Hostinger · Cloudflare · CDN Concepts · DNS · SPF · DKIM · DMARC · CORS · Helmet · Rate Limiting</p></article>
+</div></section>
+<section class="section" id="projects"><div class="section-head-row"><div><div class="eyebrow reveal">Selected Work</div><h2 class="section-heading reveal">Ideas transformed into products.</h2></div><span class="section-count reveal">Selected Projects & Concepts</span></div><div class="projects-grid">
+<article class="project-card reveal"><div class="project-visual"><img class="project-img" src="assets/cyberpahsto.png" alt="CyberPashto LMS & ERP" loading="lazy"></div><div class="project-meta"><div><h3>CyberPashto LMS & ERP</h3><p>A learning platform for course publishing, sections and lessons, video and PDF learning materials, enrolments, certificates, and role-based administration.</p></div><div class="project-type">LMS & ERP</div></div><div class="project-stack">Next.js · TypeScript · NestJS · MongoDB Atlas · JWT · Flutter</div></article>
+
+<article class="project-card reveal"><div class="project-visual"><img class="project-img" src="assets/Hisab%20Kitab%20App%20Portfolio%20Banner.png" alt="Hisab Kitab" loading="lazy"></div><div class="project-meta"><div><h3>Hisab Kitab</h3><p>A smart inventory and sales management application concept for organizing products, tracking stock, and managing day-to-day business sales.</p></div><div class="project-type">Business<br>Management</div></div><div class="project-stack">Flutter · Dart · Firebase</div></article>
+
+<article class="project-card reveal"><div class="project-visual"><img class="project-img" src="assets/realestatewith%20huuruair.png" alt="Real Estate With Hurrair" loading="lazy"></div><div class="project-meta"><div><h3>Real Estate With Hurrair</h3><p>A property platform for listing management, property photos and videos, visitor browsing, and an administrative dashboard.</p></div><div class="project-type">Real Estate</div></div><div class="project-stack">Next.js · TypeScript · Firebase · Firestore</div></article>
+
+<article class="project-card reveal"><div class="project-visual"><img class="project-img" src="assets/Hurrair%20VIP%20Signals%20Platform.png" alt="Hurrair VIP Signals" loading="lazy"></div><div class="project-meta"><div><h3>Hurrair VIP Signals</h3><p>A Telegram-integrated signals platform with message parsing, real-time signal feeds, Free and VIP access, Karachi-based daily quotas, and an admin broadcast workflow.</p></div><div class="project-type">Mobile &<br>Web App</div></div><div class="project-stack">Flutter · Next.js · TypeScript · NestJS · MongoDB Atlas · Telegram Webhooks</div></article>
+
+<article class="project-card reveal"><div class="project-visual"><img class="project-img" src="assets/HostelWalay%20Purple%20Hostel%20Finder%20Banner.png" alt="HostelWalay" loading="lazy"></div><div class="project-meta"><div><h3>HostelWalay</h3><p>A hostel discovery platform designed to help students find, explore, and compare nearby hostels with property details, photos, location information, amenities, and saved listings.</p></div><div class="project-type">Mobile &<br>Web App</div></div><div class="project-stack">Flutter · Dart · Firebase · Cloud Firestore · Firebase Authentication · Firebase Storage · Google Maps Platform</div></article>
+
+<article class="project-card reveal"><div class="project-visual"><img class="project-img" src="assets/EasyDrive%20Car%20Rental%20App%20Showcase.png" alt="EasyDrive" loading="lazy"></div><div class="project-meta"><div><h3>EasyDrive</h3><p>A car rental mobile application concept for browsing vehicles, comparing specifications, checking availability, and managing bookings through a simple user-friendly interface.</p></div><div class="project-type">Mobile App</div></div><div class="project-stack">Flutter · Dart · Android · Kotlin Gradle · package_info_plus</div></article>
+
+<article class="project-card reveal"><div class="project-visual"><img class="project-img" src="assets/Focus%20Flow%20Productivity%20App%20Banner.png" alt="Focus Flow" loading="lazy"></div><div class="project-meta"><div><h3>Focus Flow</h3><p>A productivity and task-management application designed to help users organize daily activities, manage tasks, schedule routines, track goals, and improve focus through structured productivity tools.</p></div><div class="project-type">Mobile App</div></div><div class="project-stack">Flutter · Dart · UI Design · Task Management · Pomodoro Timer</div></article>
+
+<article class="project-card reveal"><div class="project-visual"><img class="project-img" src="assets/Frostbound_%20A%20Winter%20Game%20Showcase.png" alt="Frostbound" loading="lazy"></div><div class="project-meta"><div><h3>Frostbound</h3><p>A desktop game development project exploring a graphical interface and rendering workflow using a native Windows graphics stack.</p></div><div class="project-type">Game<br>Development</div></div><div class="project-stack">C++ · ImGui · DirectX 11</div></article>
+
+<article class="project-card reveal"><div class="project-visual"><img class="project-img" src="assets/lunar%20comamd.png" alt="Lunar Command" loading="lazy"></div><div class="project-meta"><div><h3>Lunar Command</h3><p>A NASA Space Apps Challenge concept for a Junior Astronaut Mission Trainer: a stylized lunar survival experience involving astronaut health, mission progression, and research points.</p></div><div class="project-type">3D Game<br>Concept</div></div><div class="project-stack">Next.js · JavaScript · Tailwind CSS · 3D Assets</div></article>
+
+<article class="project-card reveal"><div class="project-visual"><img class="project-img" src="assets/SynapseX%20AI%20Solutions%20Showcase.png" alt="SynapseX AI Solutions" loading="lazy"></div><div class="project-meta"><div><h3>SynapseX AI Solutions</h3><p>A hybrid AI agency and SaaS business concept exploring AI-powered products, integrations, and tailored digital solutions.</p></div><div class="project-type">AI & SaaS<br>Concept</div></div><div class="project-stack">AI APIs · SaaS · Web Development</div></article>
+
+<article class="project-card reveal"><div class="project-visual"><img class="project-img" src="assets/stardata.png" alt="Star Data & Business Services" loading="lazy"></div><div class="project-meta"><div><h3>Star Data & Business Services</h3><p>A finance and business-services website project focused on presenting professional services with a clear online presence.</p></div><div class="project-type">Business<br>Website</div></div><div class="project-stack">Web Development · UI Design</div></article>
+
+<article class="project-card reveal"><div class="project-visual"><img class="project-img" src="assets/Luxury%20Purses%20Boutique%20Showcase.png" alt="Luxury Purses Boutique" loading="lazy"></div><div class="project-meta"><div><h3>Luxury Purses Boutique</h3><p>A boutique business and e-commerce concept for presenting a curated range of fashion accessories online.</p></div><div class="project-type">E-commerce<br>Concept</div></div><div class="project-stack">WordPress · Elementor · E-commerce</div></article>
+</div></section>
+<section class="section" id="experience"><div class="section-head-row"><div><div class="eyebrow reveal">Beyond Development</div><h2 class="section-heading reveal">Technology is better together.</h2></div><span class="section-count reveal">Community & Experience</span></div><div class="timeline">
+<article class="timeline-item reveal"><span class="timeline-index">01</span><div><h3>Google Developer Groups on Campus</h3><div class="timeline-role">Technical Team Member · GDGoC IMSciences · 2026–2027</div><p>Contributing to the technical community at IMSciences through developer-focused activities, technology initiatives, and collaborative learning. Previously served as a Core Team Member and received a Certificate of Appreciation.</p></div></article>
+<article class="timeline-item reveal"><span class="timeline-index">02</span><div><h3>CyberPashto</h3><div class="timeline-role">Ambassador</div><p>Representing and contributing to a technology-focused community, connecting with developers and encouraging learning and engagement.</p></div></article>
+<article class="timeline-item reveal"><span class="timeline-index">03</span><div><h3>Frontend Development</h3><div class="timeline-role">Internship Experience</div><p>Working on practical frontend development tasks, building user interfaces, and improving development skills through hands-on experience.</p></div></article>
+<article class="timeline-item reveal"><span class="timeline-index">04</span><div><h3>ZindigiPrize 2026</h3><div class="timeline-role">Event Moderator · IMSciences</div><p>Moderated the ZindigiPrize 2026 event at IMSciences, contributing to event coordination and community engagement.</p></div></article>
+</div></section>
+<section class="section" id="education"><div class="section-head-row"><div><div class="eyebrow reveal">Education</div><h2 class="section-heading reveal">Building the foundation.</h2></div></div><div class="education-grid"><article class="education-card reveal"><div><h3>Institute of Management Sciences</h3><p>Bachelor of Science in Software Engineering<br>Peshawar, Pakistan</p></div><span>Currently Pursuing</span></article><article class="education-card reveal"><div><h3>Peshawar Model Degree College</h3><p>Intermediate</p></div><span>Academic Background</span></article><article class="education-card reveal"><div><h3>St. Mary's High School</h3><p>Matriculation</p></div><span>Academic Background</span></article></div></section>
+<footer class="contact" id="contact"><div class="eyebrow reveal">Let's Connect</div><h2 class="contact-heading reveal">Have an idea worth building?</h2><p class="contact-copy reveal">I'm always interested in connecting with people, exploring new technologies, collaborating on interesting projects, and discussing ideas that can turn into something meaningful.</p><a class="email-link" href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com <span>↗</span></a><div class="footer-bar"><div class="footer-main"><p class="footer-signature">Mohasin Nawaz</p><p class="footer-tag">Designed & built with curiosity.</p></div><nav class="footer-social" aria-label="Social links"><ul class="socials"><li><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer noopener">LinkedIn</a></li><li><a href="https://github.com/" target="_blank" rel="noreferrer noopener">GitHub</a></li></ul></nav><div class="footer-right"><p class="copyright">© 2026 Mohasin Nawaz.<br>All rights reserved.</p><p class="copyright" style="margin-top:.75rem">Peshawar, Pakistan</p></div></div></footer>
+</main>
+<script>
+const FONT_BASE=16,BASE_W=1920,COEF=.6666;
+function applyAdaptiveGrid(){const w=innerWidth;const reduction=((BASE_W-w)/BASE_W)*100*COEF;const size=FONT_BASE-(FONT_BASE*reduction)/100;if(size>FONT_BASE)document.documentElement.style.fontSize=size+"px";else document.documentElement.style.removeProperty("font-size")}
+applyAdaptiveGrid();addEventListener("resize",applyAdaptiveGrid);
+const reduced=matchMedia("(prefers-reduced-motion: reduce)").matches;
+const makeLetters=(el,text)=>{el.innerHTML=[...text].map((c,i)=>`<span style="transition-delay:${i*52}ms">${c===" "?"&nbsp;":c}</span>`).join("")};
+makeLetters(document.getElementById("nameOne"),"Mohasin");makeLetters(document.getElementById("nameTwo"),"Nawaz");
+const words=["Build","Innovate","Experiment","Create","Learn","Deploy","Scale"];
+function fillMarquee(id){document.getElementById(id).innerHTML=words.map(w=>`<span class="marquee-word">${w}</span><i class="marquee-dot"></i>`).join("")}
+fillMarquee("marqueeA");fillMarquee("marqueeB");
+const hero=document.querySelector(".hero"),pre=document.getElementById("preloader"),count=document.getElementById("count");
+let lenis=null;
+async function startSmoothScroll(){try{const mod=await import("lenis");const Lenis=mod.default;lenis=new Lenis({smoothWheel:true});window.lenis=lenis;function raf(t){lenis.raf(t);requestAnimationFrame(raf)}requestAnimationFrame(raf)}catch(e){console.warn("Lenis unavailable; using native smooth scrolling.",e)}}
+if(!reduced){if(lenis)lenis?.stop();let start=performance.now();function tick(now){const p=Math.min((now-start)/2000,1);count.textContent=Math.round(p*100);if(p<1)requestAnimationFrame(tick);else{pre.classList.add("labels-out");setTimeout(()=>{pre.classList.add("done");startSmoothScroll();setTimeout(()=>{pre.setAttribute("aria-hidden","true");hero.classList.add("loaded")},650)},500)}}requestAnimationFrame(tick)}else{pre.remove();hero.classList.add("loaded");startSmoothScroll()}
+if(!reduced){setTimeout(()=>hero.classList.add("loaded"),2500)}
+const burger=document.getElementById("burger"),menu=document.getElementById("mobileMenu");
+function closeMenu(){burger.classList.remove("active");menu.classList.remove("open");burger.setAttribute("aria-expanded","false");document.body.style.overflow=""}
+burger.addEventListener("click",()=>{const open=!menu.classList.contains("open");burger.classList.toggle("active",open);menu.classList.toggle("open",open);burger.setAttribute("aria-expanded",String(open));document.body.style.overflow=open?"hidden":""});
+menu.querySelectorAll("a").forEach(a=>a.addEventListener("click",e=>{closeMenu();const target=document.querySelector(a.getAttribute("href"));if(target){e.preventDefault();if(lenis)lenis.scrollTo(target);else target.scrollIntoView({behavior:reduced?"auto":"smooth"})}}));
+document.querySelectorAll('.desktop-links a,.brand[href="#top"]').forEach(a=>a.addEventListener("click",e=>{const target=document.querySelector(a.getAttribute("href"));if(target){e.preventDefault();if(lenis)lenis.scrollTo(target);else target.scrollIntoView({behavior:reduced?"auto":"smooth"})}}));
+if("IntersectionObserver"in window&&!reduced){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add("in-view");observer.unobserve(entry.target)}}),{threshold:0});document.querySelectorAll(".reveal").forEach((el,i)=>{el.style.transitionDelay=(i%5)*70+"ms";observer.observe(el)})}else document.querySelectorAll(".reveal").forEach(el=>el.classList.add("in-view"));
+</script>
+
+<script>
+/* SOFFIT — WebGL2 animated gradient.
+   Adjust the CONFIG values below to tune the lighting and palette.
+   The shader itself is intentionally kept separate from the values. */
+(() => {
+  const CONFIG = {
+    bgColor:"#8f1a12", colorA:"#e8342b", colorB:"#ff5a4b", colorC:"#ffd8d0", colorD:"#ffffff",
+    scale:0.2, speed:0.32, tilt:2.96, rock:0.235, horizon:0.15, breathe:0.12,
+    spread:-2.03, curve:3.14, direct:0.6, bounce:0.64, bounceCurve:2.2,
+    spillCentre:0.12, spillWidth:1.91, spillFloor:0.66, amount:0.47, warp:2.83,
+    warpScale:1.2, flow:0.2, roughness:0.53, lacunarity:2.23, motes:0.074,
+    moteScale:18, ambient:0.14, contrast:2.98, midpoint:0.78, sink:0.1,
+    glow:0.29, grain:0, grainAnim:0, dither:1.11, vignette:0.07,
+    steer:-0.24, lift:0.09, sweep:0.32, cursor:1, parallax:0.01, maxDpr:1
+  };
+
+  const canvas = document.getElementById("gl");
+  if (!canvas) return;
+  const gl = canvas.getContext("webgl2", {
+    alpha:false, antialias:false, depth:false, stencil:false,
+    powerPreference:"high-performance"
+  });
+  if (!gl) {
+    canvas.style.display = "none";
+    return;
+  }
+
+  const VERT = `#version 300 es
+  void main(){
+    vec2 p=vec2((gl_VertexID<<1)&2,gl_VertexID&2);
+    gl_Position=vec4(p*2.0-1.0,0.0,1.0);
+  }`;
+
+  const FRAG = `#version 300 es
+  precision highp float;
+  precision highp int;
+  out vec4 fragColor;
+  uniform vec2 iResolution;
+  uniform float iTime;
+  uniform vec2 iMouse;
+  uniform float uScale;
+  uniform vec3 uBg,uColorA,uColorB,uColorC,uColorD;
+  uniform float uSpeed,uTilt,uRock,uHorizon,uBreathe,uSpread,uCurve,uDirect;
+  uniform float uBounce,uBounceCurve;
+  uniform float uSpillCentre,uSpillWidth,uSpillFloor;
+  uniform float uAmount,uWarp,uWarpScale,uFlow,uRoughness,uLacunarity,uMotes,uMoteScale;
+  uniform float uAmbient,uContrast,uMidpoint,uSink,uGlow;
+  uniform float uGrain,uDither,uVignette,uGrainAnim;
+  uniform float uSteer,uLift,uSweep,uParallax;
+  #define OCTAVES 4
+  vec2 hash2(vec2 p){
+    p=vec2(dot(p,vec2(127.1,311.7)),dot(p,vec2(269.5,183.3)));
+    return -1.0+2.0*fract(sin(p)*43758.5453123);
+  }
+  float snoise(vec2 p){
+    const float K1=.366025404,K2=.211324865;
+    vec2 i=floor(p+(p.x+p.y)*K1);
+    vec2 a=p-i+(i.x+i.y)*K2;
+    float m=step(a.y,a.x);
+    vec2 o=vec2(m,1.0-m);
+    vec2 b=a-o+K2;
+    vec2 c=a-1.0+2.0*K2;
+    vec3 h=max(.5-vec3(dot(a,a),dot(b,b),dot(c,c)),0.0);
+    vec3 n=h*h*h*h*vec3(dot(a,hash2(i)),dot(b,hash2(i+o)),dot(c,hash2(i+1.0)));
+    return dot(n,vec3(70.0));
+  }
+  float fbm(vec2 p){
+    float v=0.0,amp=.5;
+    for(int i=0;i<OCTAVES;i++){v+=amp*snoise(p);p*=uLacunarity;amp*=uRoughness;}
+    return v;
+  }
+  vec3 ramp4(float t){
+    vec3 c=mix(uColorA,uColorB,smoothstep(0.00,.36,t));
+    c=mix(c,uColorC,smoothstep(.32,.70,t));
+    c=mix(c,uColorD,smoothstep(.66,1.00,t));
+    return c;
+  }
+  float triDither(vec2 fc){
+    float a=fract(sin(dot(fc,vec2(12.9898,78.233)))*43758.5453);
+    float b=fract(sin(dot(fc+17.0,vec2(12.9898,78.233)))*43758.5453);
+    return (a+b-1.0)/255.0;
+  }
+  float houseGrain(vec2 fc){
+    uvec2 q=uvec2(fc)*uvec2(1597334677u,3812015801u)+uint(floor(iTime*24.0*uGrainAnim))*2654435769u;
+    uint n=q.x^q.y;n=n*1664525u+1013904223u;n^=n>>16u;n*=2246822519u;n^=n>>13u;
+    float a=float(n&0xffffu)/65535.0;
+    n*=3266489917u;n^=n>>16u;
+    float b=float(n&0xffffu)/65535.0;
+    return a+b-1.0;
+  }
+  void main(){
+    vec2 uv=(gl_FragCoord.xy-.5*iResolution)/iResolution.y;
+    uv*=uScale;
+    vec2 iM=iMouse*uScale;
+    float t=iTime*uSpeed;
+    vec2 p=uv-iM*uParallax;
+    float tilt=uTilt+sin(t*.13)*uRock+iM.x*uSteer;
+    vec2 dir=vec2(cos(tilt),sin(tilt));
+    float axis=dot(p,dir);
+    float across=dot(p,vec2(-dir.y,dir.x));
+    vec2 q=vec2(fbm(p*uWarpScale+vec2(0.0,t*uFlow)),
+                fbm(p*uWarpScale+vec2(5.2,1.3)-t*uFlow*.7));
+    float air=fbm(p+uWarp*q+vec2(t*.12,-t*.09))*.5+.5;
+    float horizon=uHorizon+sin(t*.09+2.1)*uBreathe-iM.y*uLift;
+    float alt=clamp(.5+(axis-horizon)*uSpread+(air-.5)*uAmount,0.0,1.0);
+    float ac=(across-uSpillCentre-iM.x*uSweep)/max(.05,uSpillWidth);
+    float spill=mix(uSpillFloor,1.0,exp(-ac*ac));
+    float direct=pow(alt,max(.05,uCurve))*uDirect*spill;
+    float bounce=uBounce*pow(1.0-alt,max(.05,uBounceCurve));
+    float f=uAmbient+direct+bounce;
+    f+=uMotes*snoise(p*uMoteScale+vec2(-t*.5,t*.35))*.5*alt;
+    f=clamp((f-uMidpoint)*uContrast+.5,0.0,1.0);
+    vec3 col=ramp4(f);
+    col+=uColorD*uGlow*pow(f,4.0);
+    col=mix(uBg,col,smoothstep(0.0,max(.01,uSink),f)*.90+.10);
+    col*=1.0-uVignette*dot(uv,uv);
+    float hgL=clamp(dot(col,vec3(.299,.587,.114)),0.0,1.0);
+    col+=houseGrain(gl_FragCoord.xy)*uGrain*mix(1.0,4.0*hgL*(1.0-hgL),.6);
+    col+=triDither(gl_FragCoord.xy)*uDither;
+    fragColor=vec4(clamp(col,0.0,1.0),1.0);
+  }`;
+
+  function compile(type,src){
+    const shader=gl.createShader(type);
+    gl.shaderSource(shader,src);gl.compileShader(shader);
+    if(!gl.getShaderParameter(shader,gl.COMPILE_STATUS)){
+      console.error("Soffit shader:",gl.getShaderInfoLog(shader));
+      gl.deleteShader(shader);throw new Error("WebGL shader compilation failed");
+    }
+    return shader;
+  }
+  try {
+    const program=gl.createProgram();
+    gl.attachShader(program,compile(gl.VERTEX_SHADER,VERT));
+    gl.attachShader(program,compile(gl.FRAGMENT_SHADER,FRAG));
+    gl.linkProgram(program);
+    if(!gl.getProgramParameter(program,gl.LINK_STATUS)) throw new Error(gl.getProgramInfoLog(program));
+    gl.useProgram(program);gl.bindVertexArray(gl.createVertexArray());
+
+    const locations={};
+    const loc=n=>locations[n]??(locations[n]=gl.getUniformLocation(program,n));
+    const u1=(n,v)=>gl.uniform1f(loc(n),v);
+    const u2=(n,x,y)=>gl.uniform2f(loc(n),x,y);
+    const hex=n=>{const h=n.replace("#","");return [0,2,4].map(i=>parseInt(h.slice(i,i+2),16)/255)};
+    const u3=(n,v)=>{const c=hex(v);gl.uniform3f(loc(n),c[0],c[1],c[2])};
+    const apply=()=>{
+      gl.useProgram(program);
+      u3("uBg",CONFIG.bgColor);u3("uColorA",CONFIG.colorA);u3("uColorB",CONFIG.colorB);u3("uColorC",CONFIG.colorC);u3("uColorD",CONFIG.colorD);
+      const pairs={
+        uScale:"scale",uSpeed:"speed",uTilt:"tilt",uRock:"rock",uHorizon:"horizon",uBreathe:"breathe",
+        uSpread:"spread",uCurve:"curve",uDirect:"direct",uBounce:"bounce",uBounceCurve:"bounceCurve",
+        uSpillCentre:"spillCentre",uSpillWidth:"spillWidth",uSpillFloor:"spillFloor",uAmount:"amount",
+        uWarp:"warp",uWarpScale:"warpScale",uFlow:"flow",uRoughness:"roughness",uLacunarity:"lacunarity",
+        uMotes:"motes",uMoteScale:"moteScale",uAmbient:"ambient",uContrast:"contrast",uMidpoint:"midpoint",
+        uSink:"sink",uGlow:"glow",uGrain:"grain",uGrainAnim:"grainAnim",uDither:"dither",uVignette:"vignette",
+        uSteer:"steer",uLift:"lift",uSweep:"sweep",uParallax:"parallax"
+      };
+      Object.entries(pairs).forEach(([uniform,key])=>u1(uniform,CONFIG[key]));
+      resize();
+    };
+    let dpr=1;
+    function resize(){
+      dpr=Math.min(devicePixelRatio||1,CONFIG.maxDpr);
+      const w=Math.max(1,Math.round(canvas.clientWidth*dpr)),h=Math.max(1,Math.round(canvas.clientHeight*dpr));
+      if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h;}
+      gl.viewport(0,0,w,h);gl.useProgram(program);u2("iResolution",w,h);
+    }
+    let resizeQueued=false;
+    addEventListener("resize",()=>{if(resizeQueued)return;resizeQueued=true;requestAnimationFrame(()=>{resizeQueued=false;resize()})},{passive:true});
+    const mouse={x:0,y:0,ax:0,ay:0,tx:0,ty:0,rest:{x:0,y:0}};
+    const aim=e=>{const a=canvas.clientWidth/Math.max(1,canvas.clientHeight);const r=canvas.getBoundingClientRect();mouse.tx=(e.clientX-r.left)/Math.max(1,r.width)*a-a*.5;mouse.ty=.5-(e.clientY-r.top)/Math.max(1,r.height);};
+    canvas.addEventListener("pointermove",aim,{passive:true});
+    canvas.addEventListener("pointerdown",aim,{passive:true});
+    let visible=true;
+    if("IntersectionObserver"in window)new IntersectionObserver(entries=>{visible=entries[0].isIntersecting},{threshold:0}).observe(canvas);
+    let prev=performance.now(),clock=0;
+    function frame(now){
+      requestAnimationFrame(frame);
+      const raw=now-prev;prev=now;
+      if(!visible||document.hidden)return;
+      const ms=raw>50?50:raw<4.167?4.167:raw;
+      const s=ms>36.7?2.2:ms*.06;
+      clock+=ms*.001;
+      const kLead=.105*s,kBody=.043*s;
+      mouse.ax+=(mouse.tx-mouse.ax)*kLead;mouse.ay+=(mouse.ty-mouse.ay)*kLead;
+      mouse.x+=(mouse.ax-mouse.x)*kBody;mouse.y+=(mouse.ay-mouse.y)*kBody;
+      u1("iTime",clock);
+      if(!CONFIG.cursor){mouse.tx=mouse.rest.x;mouse.ty=mouse.rest.y;}
+      u2("iMouse",mouse.x,mouse.y);
+      gl.drawArrays(gl.TRIANGLES,0,3);
+    }
+    apply();gl.drawArrays(gl.TRIANGLES,0,3);requestAnimationFrame(frame);
+  } catch(err) {
+    console.error("Soffit WebGL effect could not start:",err);
+    canvas.style.display="none";
+  }
+})();
+</script>
+
+</body>
+</html>
